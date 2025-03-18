@@ -7,21 +7,24 @@
 
 /* Estilo general para el cuerpo de la página */
 body {
-    font-family: 'Poppins', sans-serif; /* Usamos la fuente Poppins */
+    font-family: 'Poppins', sans-serif; /* Fuente principal */
     font-size: 14px;
     line-height: 1.5;
-    color: white; /* Color de texto blanco */
-    text-transform: uppercase; /* Convertir todo el texto a mayúsculas */
+    color: white;
+    text-transform: uppercase;
+    background: black; /* Fondo negro por si el video no carga */
+    overflow: hidden; /* Evita scroll si el video se ajusta correctamente */
 }
 
 /* Estilo del video de fondo */
 .video-background {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
+    transform: translate(-50%, -50%);
     z-index: -1;
 }
 
@@ -35,13 +38,14 @@ header {
     position: absolute;
     top: 0;
     left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor visibilidad */
 }
 
 /* Estilo del logo */
 .logo {
-    font-family: 'Julius Sans One', sans-serif; /* Fuente correcta */
-    font-size: 32px; /* Tamaño ajustado */
-    font-weight: normal; /* Julius Sans One no necesita negrita */
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
     color: white;
 }
 
@@ -59,5 +63,11 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: white;
-    font-family: 'Poppins', sans-serif; /* También aplicamos la misma fuente aquí */
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Efecto hover en los enlaces */
+nav ul li a:hover {
+    color: #f4a261; /* Color resaltado al pasar el mouse */
 }

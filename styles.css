@@ -1,11 +1,12 @@
-/* Estilo para el video de fondo */
+/* Estilo para el contenedor del video */
 .video-background {
     position: fixed; /* El video se queda fijo en la pantalla */
     top: 0;
     left: 0;
     width: 100%; /* El video cubrirá todo el ancho de la pantalla */
     height: 100%; /* El video cubrirá toda la altura de la pantalla */
-    object-fit: cover; /* Asegura que el video cubra toda el área sin distorsionarse */
+    object-fit: contain; /* Mantiene el video dentro de los límites, sin distorsionar */
+    background-color: black; /* Fondo negro en los espacios vacíos */
     z-index: -1; /* Coloca el video detrás del contenido */
 }
 

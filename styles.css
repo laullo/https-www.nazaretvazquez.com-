@@ -1,42 +1,42 @@
 /* Estilo para el video de fondo */
 .video-background {
-    position: fixed; /* Fija el video en el fondo */
+    position: fixed; /* El video se queda fijo en la pantalla */
     top: 0;
     left: 0;
-    width: 100%; /* El video cubre todo el ancho de la pantalla */
-    height: 100%; /* El video cubre toda la altura de la pantalla */
-    object-fit: cover; /* Ajusta el video para que cubra el área sin distorsionarse */
-    z-index: -1; /* Asegura que el video esté detrás del contenido */
+    width: 100%; /* El video cubrirá todo el ancho de la pantalla */
+    height: 100%; /* El video cubrirá toda la altura de la pantalla */
+    object-fit: cover; /* Asegura que el video cubra toda el área sin distorsionarse */
+    z-index: -1; /* Coloca el video detrás del contenido */
 }
 
-/* Estilos generales del cuerpo */
+/* Estilo general para el contenido */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    color: white; /* Texto en color blanco para que sea legible sobre el video */
+    color: white; /* Color de texto blanco para que sea visible sobre el video */
 }
 
-/* Estilo del encabezado */
+/* Estilo para el encabezado */
 header {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    padding: 50px 0;
-}
-
-/* Estilo de la sección principal */
-section {
-    position: relative;
-    z-index: 1;
-    padding: 50px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
-}
-
-/* Estilo del pie de página */
-footer {
-    position: relative;
-    z-index: 1;
     text-align: center;
     padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el encabezado */
+    margin-top: 20px;
+}
+
+/* Estilo para el contenido principal */
+section {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para hacer legible el texto */
+    margin: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro en el pie de página */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

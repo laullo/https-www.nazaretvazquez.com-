@@ -37,13 +37,15 @@ header {
     left: 0;
 }
 
+/* Estilo del logo */
 .logo {
-    font-family: 'Poppins', sans-serif; /* Usamos la fuente Poppins aquí */
-    font-size: 48px;
-    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif; /* Fuente correcta */
+    font-size: 32px; /* Tamaño ajustado */
+    font-weight: normal; /* Julius Sans One no necesita negrita */
     color: white;
 }
 
+/* Estilo de la navegación */
 nav ul {
     list-style: none;
     display: flex;

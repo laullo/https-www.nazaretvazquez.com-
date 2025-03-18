@@ -44,7 +44,7 @@ header {
 /* Estilo del logo */
 .logo {
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: normal;
     color: white;
 }
@@ -63,7 +63,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     transition: color 0.3s ease-in-out;
 }
 

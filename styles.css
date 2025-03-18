@@ -21,7 +21,7 @@ body {
     font-family: 'Julio Sans Uno', sans-serif; /* Usar Julio Sans Uno */
     color: white; /* Color de letra blanco */
     background-color: #F5F2E9;
-    text-transform: uppercase; /* Aplicar mayúsculas en todo el texto del body */
+    text-transform: uppercase; /* Convertir todo el texto a mayúsculas */
 }
 
 /* Encabezado */
@@ -38,11 +38,11 @@ header {
 
 /* Estilo del nombre */
 .logo {
-    font-family: 'Julio Sans Uno', sans-serif;
+    font-family: 'Julio Sans Uno', sans-serif; /* Asegurarse de que se use la fuente correcta */
     font-size: 48px;
     font-weight: 600; /* Peso 600 */
-    color: white; /* Letras en blanco */
-    text-transform: uppercase; /* Letras en mayúsculas */
+    color: white; /* Color blanco para el nombre */
+    text-transform: uppercase; /* Asegurarse de que esté en mayúsculas */
 }
 
 /* Estilo del menú */
@@ -58,7 +58,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
-    color: white; /* Letras en blanco */
+    color: white; /* Color blanco para los enlaces */
     font-family: 'Julio Sans Uno', sans-serif;
-    text-transform: uppercase; /* Letras en mayúsculas */
+    text-transform: uppercase; /* Asegurarse de que los enlaces estén en mayúsculas */
 }

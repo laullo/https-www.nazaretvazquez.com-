@@ -37,9 +37,11 @@ header {
 
 /* Estilo del nombre */
 .logo {
-    font-family: 'Major Mono Display', cursive;
-    font-size: 48px;
-    font-weight: bold;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 60px;  /* Ajusta el tamaño según necesites */
+    color: #000000;   /* Cambia el color si quieres */
+    letter-spacing: 2px; /* Espaciado entre letras para mejorar la estética */
+}
 }
 
 /* Estilo del menú */

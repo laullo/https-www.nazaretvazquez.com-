@@ -7,12 +7,14 @@
 
 /* Estilo general para el cuerpo de la página */
 body {
-    font-family: 'Julio Sans Uno', sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: white;
-    text-transform: uppercase;
+    font-family: 'Julio Sans Uno', sans-serif; /* Asegurarnos de que se aplique la fuente correcta */
+    font-size: 14px; /* Tamaño base de fuente */
+    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+    color: white; /* Color de texto blanco */
+    text-transform: uppercase; /* Convertir todo el texto a mayúsculas */
+    /* Eliminamos el color de fondo ya que el video es el fondo */
 }
+
 /* Estilo para el video de fondo */
 .video-background {
     position: fixed; /* Asegura que el video esté fijo en la pantalla */

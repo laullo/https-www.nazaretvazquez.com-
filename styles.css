@@ -71,3 +71,19 @@ nav ul li a {
 nav ul li a:hover {
     color: #f4a261; /* Color resaltado al pasar el mouse */
 }
+
+/* Estilo del mensaje de construcción */
+.construction-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 24px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1000;
+}

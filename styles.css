@@ -5,32 +5,40 @@
     box-sizing: border-box;
 }
 
-/* Estilo general para el cuerpo de la página */
-body {
-    font-family: 'Julio Sans Uno', sans-serif; /* Asegurarnos de que se aplique la fuente correcta */
-    font-size: 14px; /* Tamaño base de fuente */
-    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
-    color: white; /* Color de texto blanco */
-    text-transform: uppercase; /* Convertir todo el texto a mayúsculas */
-    /* Eliminamos el color de fondo ya que el video es el fondo */
+/* Agregar la fuente manualmente */
+@font-face {
+    font-family: 'Julio Sans Uno';
+    src: url('fonts/JulioSansUno-Regular.woff2') format('woff2'),  /* Ruta a tu archivo .woff2 */
+         url('fonts/JulioSansUno-Regular.woff') format('woff');    /* Ruta a tu archivo .woff */
+    font-weight: normal;
+    font-style: normal;
 }
 
-/* Estilo para el video de fondo */
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: 'Julio Sans Uno', sans-serif; /* Usamos la fuente Julio Sans Uno */
+    font-size: 14px;
+    line-height: 1.5;
+    color: white; /* Color de texto blanco */
+    text-transform: uppercase; /* Convertir todo el texto a mayúsculas */
+}
+
+/* Estilo del video de fondo */
 .video-background {
-    position: fixed; /* Asegura que el video esté fijo en la pantalla */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Asegura que el video cubra todo el fondo */
-    z-index: -1; /* Coloca el video detrás del contenido */
+    object-fit: cover;
+    z-index: -1;
 }
 
-/* Encabezado */
+/* Estilo del encabezado */
 header {
     display: flex;
-    justify-content: space-between; /* Espaciado entre el logo y el menú */
-    align-items: center; /* Alineación vertical centrada */
+    justify-content: space-between;
+    align-items: center;
     padding: 20px 40px;
     width: 100%;
     position: absolute;
@@ -38,16 +46,13 @@ header {
     left: 0;
 }
 
-/* Estilo del nombre */
 .logo {
-    font-family: 'Julio Sans Uno', sans-serif; /* Asegurarnos de que se aplique la fuente correcta */
+    font-family: 'Julio Sans Uno', sans-serif; /* Usamos la misma fuente aquí */
     font-size: 48px;
-    font-weight: 600; /* Peso 600 */
-    color: white; /* Color blanco para el nombre */
-    text-transform: uppercase; /* Asegurarse de que esté en mayúsculas */
+    font-weight: bold;
+    color: white;
 }
 
-/* Estilo del menú */
 nav ul {
     list-style: none;
     display: flex;
@@ -60,7 +65,6 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
-    color: white; /* Color blanco para los enlaces */
-    font-family: 'Julio Sans Uno', sans-serif;
-    text-transform: uppercase; /* Asegurarse de que los enlaces estén en mayúsculas */
+    color: white;
+    font-family: 'Julio Sans Uno', sans-serif; /* También aplicamos la misma fuente aquí */
 }

@@ -1,27 +1,29 @@
-/* Reset de estilos para evitar márgenes no deseados */
+/* Reseteo de márgenes y propiedades globales */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: 'Julio Sans Uno', sans-serif; /* Asegurarnos de que se aplique la fuente correcta */
+    font-size: 14px; /* Tamaño base de fuente */
+    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+    color: white; /* Color de texto blanco */
+    text-transform: uppercase; /* Convertir todo el texto a mayúsculas */
+    /* Eliminamos el color de fondo ya que el video es el fondo */
+}
+
 /* Estilo para el video de fondo */
 .video-background {
-    position: fixed;
+    position: fixed; /* Asegura que el video esté fijo en la pantalla */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-
-/* Estilo general */
-body {
-    font-family: 'Julio Sans Uno', sans-serif; /* Usar Julio Sans Uno */
-    color: white; /* Color de letra blanco */
-    background-color: #F5F2E9;
-    text-transform: uppercase; /* Convertir todo el texto a mayúsculas */
+    object-fit: cover; /* Asegura que el video cubra todo el fondo */
+    z-index: -1; /* Coloca el video detrás del contenido */
 }
 
 /* Encabezado */
@@ -38,7 +40,7 @@ header {
 
 /* Estilo del nombre */
 .logo {
-    font-family: 'Julio Sans Uno', sans-serif; /* Asegurarse de que se use la fuente correcta */
+    font-family: 'Julio Sans Uno', sans-serif; /* Asegurarnos de que se aplique la fuente correcta */
     font-size: 48px;
     font-weight: 600; /* Peso 600 */
     color: white; /* Color blanco para el nombre */

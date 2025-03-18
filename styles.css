@@ -39,9 +39,8 @@ header {
 .logo {
     font-family: 'Major Mono Display', monospace;
     font-size: 60px;  /* Ajusta el tamaño según necesites */
-    color: #000000;   /* Cambia el color si quieres */
+    color: white;   /* Texto en blanco */
     letter-spacing: 2px; /* Espaciado entre letras para mejorar la estética */
-}
 }
 
 /* Estilo del menú */
@@ -58,5 +57,5 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: white;
-    font-family: 'Major Mono Display', cursive;
+    font-family: 'Major Mono Display', monospace;
 }

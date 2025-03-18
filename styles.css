@@ -18,7 +18,7 @@
 
 /* Estilo general */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Julio Sans Uno', sans-serif; /* Usar Julio Sans Uno para todo el cuerpo */
     color: black;
     background-color: #F5F2E9;
 }
@@ -26,8 +26,8 @@ body {
 /* Encabezado */
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; /* Espaciado entre el logo y el menú */
+    align-items: center; /* Alineación vertical centrada */
     padding: 20px 40px;
     width: 100%;
     position: absolute;
@@ -37,9 +37,9 @@ header {
 
 /* Estilo del nombre */
 .logo {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Julio Sans Uno', sans-serif;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 600; /* Peso 600 para darle más énfasis */
 }
 
 /* Estilo del menú */
@@ -56,5 +56,5 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: black;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Julio Sans Uno', sans-serif; /* Usar Julio Sans Uno para los enlaces */
 }

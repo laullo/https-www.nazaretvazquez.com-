@@ -18,8 +18,8 @@
 
 /* Estilo general */
 body {
-    font-family: 'Julio Sans Uno', sans-serif; /* Usar Julio Sans Uno para todo el cuerpo */
-    color: black;
+    font-family: 'Julio Sans Uno', sans-serif; /* Usar Julio Sans Uno */
+    color: white; /* Color de letra blanco */
     background-color: #F5F2E9;
 }
 
@@ -39,7 +39,9 @@ header {
 .logo {
     font-family: 'Julio Sans Uno', sans-serif;
     font-size: 48px;
-    font-weight: 600; /* Peso 600 para darle más énfasis */
+    font-weight: 600; /* Peso 600 */
+    text-transform: uppercase; /* Letras en mayúsculas */
+    color: white; /* Letras en blanco */
 }
 
 /* Estilo del menú */
@@ -55,6 +57,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: white; /* Letras en blanco */
     font-family: 'Julio Sans Uno', sans-serif;
+    text-transform: uppercase; /* Letras en mayúsculas */
 }

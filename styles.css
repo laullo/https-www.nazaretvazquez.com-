@@ -38,7 +38,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor visibilidad */
+    background: transparent; /* Hacer transparente la barra superior */
 }
 
 /* Estilo del logo */

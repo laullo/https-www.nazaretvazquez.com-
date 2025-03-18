@@ -21,6 +21,7 @@ body {
     font-family: 'Julio Sans Uno', sans-serif; /* Usar Julio Sans Uno */
     color: white; /* Color de letra blanco */
     background-color: #F5F2E9;
+    text-transform: uppercase; /* Aplicar mayúsculas en todo el texto del body */
 }
 
 /* Encabezado */
@@ -40,8 +41,8 @@ header {
     font-family: 'Julio Sans Uno', sans-serif;
     font-size: 48px;
     font-weight: 600; /* Peso 600 */
-    text-transform: uppercase; /* Letras en mayúsculas */
     color: white; /* Letras en blanco */
+    text-transform: uppercase; /* Letras en mayúsculas */
 }
 
 /* Estilo del menú */

@@ -3,25 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about | nazaret vázquez</title>
+    <title>About | Nazaret Vázquez</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-900">
-    <div class="max-w-4xl mx-auto p-6">
-        <h1 class="text-4xl font-semibold text-center">About</h1>
-
-        <div class="mt-8 flex flex-col md:flex-row items-center">
-            <img src="https://github.com/laullo/https-www.nazaretvazquez.com-/blob/main/Vazquez.JPG">
-            <div class="md:ml-8 mt-6 md:mt-0">
-                <h2 class="text-2xl font-medium">Nazaret Vázquez, 1990</h2>
-                <p class="mt-4 text-lg leading-relaxed">
-                    Nazaret is a multidisciplinary artist, playwright and theater director. She has worked from performance, 
-                    mixing different contemporary artistic languages to promote human rights and address economic and political 
-                    conflicts in different countries around the world in order to make visible situations of vulnerability with social groups. 
-                    She created the organization Theatre for Roots during the first years of her career, 
-                    where she has developed most of her first experiences. 
-            </div>
+<body class="bg-white text-gray-900">
+    
+    <!-- Menú de navegación -->
+    <header class="p-4 shadow-md">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">
+                <a href="index.html" class="hover:underline">Nazaret Vázquez</a>
+            </h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:underline">Nazaret Vázquez</a></li>
+                    <li><a href="#" class="hover:underline">Projects</a></li>
+                    <li><a href="#" class="hover:underline">Teaching & Workshops</a></li>
+                    <li><a href="About.html" class="hover:underline font-semibold">About</a></li>
+                    <li><a href="#" class="hover:underline">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <!-- Contenido de la página -->
+    <main class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center min-h-screen p-8">
+        <!-- Imagen -->
+        <div class="md:w-1/2">
+            <img src="Vázquez.JPG" class="w-full h-auto rounded-lg shadow-lg">
+        </div>
+
+        <!-- Texto -->
+        <div class="md:w-1/2 md:pl-12 mt-6 md:mt-0 text-left">
+            <h2 class="text-3xl font-bold mb-4">Nazaret Vázquez 1990</h2>
+            <p class="text-lg leading-relaxed">
+                Nazaret is a multidisciplinary artist, playwright and theater director. She has worked from performance, 
+                mixing different contemporary artistic languages to promote human rights and address economic and political 
+                conflicts in different countries around the world in order to make visible situations of vulnerability with social groups. 
+                She created the organization Theatre for Roots during the first years of her career, 
+                where she has developed most of her first experiences.
+        </div>
+    </main>
+
 </body>
 </html>

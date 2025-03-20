@@ -21,10 +21,11 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run build  # Si no usas un build, puedes eliminar esta línea
+        run: npm run build  # Si no usas build, elimina esta línea
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
-          folder: build  # Asegúrate de que este es tu directorio de salida
+          branch: gh-pages  # Asegúrate de que esta es la rama de despliegue
+          folder: dist  # Cambia esto según la carpeta donde se genera tu build
+          token: ${{ secrets.GITHUB_TOKEN }}  # Usa el token para permisos

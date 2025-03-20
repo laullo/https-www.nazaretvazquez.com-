@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nazaret Vázquez</title>
     
     <!-- Cargar la fuente Julius Sans One desde Google Fonts -->
@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="styles.css?v=1">
 </head>
 <body>
+    <!-- Mensaje de construcción -->
     <div class="construction-message">
-    We're Working on It, our site is under construction. Please check back soon.
-                            Thank you for your patience!
-</div>
+        We're working on it! Our site is under construction. Please check back soon.
+        Thank you for your patience!
+    </div>
 
     <!-- Video de fondo -->
     <video autoplay muted loop class="video-background">
@@ -23,19 +24,27 @@
         Tu navegador no soporta videos en HTML5.
     </video>
 
-    <!-- Contenedor principal -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">nazaret vázquez</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Teaching & Workshops</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+    <!-- Menú de navegación -->
+    <header class="header">
+        <div class="nav-container">
+            <!-- Nombre alineado a la izquierda -->
+            <h1 class="logo">
+                <a href="index.html">Nazaret Vázquez</a>
+            </h1>
+            
+            <!-- Menú alineado a la derecha -->
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Teaching & Workshops</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <script src="script.js"></script>
 </body>
 </html>
+
